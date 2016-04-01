@@ -1,0 +1,8 @@
+{
+  "name": "cf-bypass",
+  "description": "Simple Node.js server for CloudFlare bypass",
+  "repository": "https://github.com/seliverstov/cf-bypass",
+  "logo": "http://node-js-sample.herokuapp.com/node.svg",
+  "keywords": ["node", "heroku"],
+  "image": "heroku/nodejs"
+}

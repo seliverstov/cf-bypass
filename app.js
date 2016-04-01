@@ -6,7 +6,6 @@ const PORT = process.env.PORT || 8787;
 const TARGET_URL = 'http://cdn.animenewsnetwork.com';
 
 function handleRequest(origin_request, origin_response){
-  var url (request.url)
   cloudscraper.get(TARGET_URL+origin_request.url, function(error, response, body) {
     if (error) {
       console.log('Error occurred');
